@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>地图照片浏览</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="map"></div>
+    <div id="sidebar">
+      <div id="controls">
+        <form id="scanForm">
+          <input id="folderInput" placeholder="输入要扫描的文件夹路径" style="width:100%" />
+          <button type="submit">扫描</button>
+        </form>
+      </div>
+      <div id="thumbs"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

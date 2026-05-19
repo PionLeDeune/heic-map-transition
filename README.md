@@ -38,6 +38,20 @@ HEIC GPS Scanner 是一个 Python 项目，旨在扫描指定文件夹中的 HEI
    ```
    如果未提供路径，将会提示输入。
 
+## 目录结构（必看！）
+```
+heic-gps-scanner
+├── src
+│   ├── scan_heic.py       # 主脚本
+│   ├── utils.py           # 辅助函数
+│   └── __init__.py        # Python 包标记
+├── tests
+│   └── test_scan.py       # 单元测试
+├── requirements.txt        # 依赖项
+├── .gitignore              # 忽略文件
+└── README.md               # 项目文档
+```
+
 Windows 系统运行说明（中文）
 
 1. 准备环境
@@ -116,7 +130,7 @@ python app.py
 - `folium`: 用于生成 HTML 地图。
 - `csv`: 用于处理 CSV 文件。
 
-## 目录结构
+## 目录结构（必看！）
 ```
 heic-gps-scanner
 ├── src

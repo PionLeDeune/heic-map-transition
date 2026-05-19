@@ -2,6 +2,8 @@
 
 快速说明：此项目扫描指定文件夹内的 HEIC/HEIF 图片，使用 `exiftool` 提取 GPS 信息，生成缩略图并在浏览器中以地图+缩略图联动方式展示。
 
+Inspired by Apple.inc
+
 依赖:
 - 系统：exiftool（需安装并加入 PATH）
 - Python：见 `requirements.txt`
